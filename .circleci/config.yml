@@ -48,7 +48,7 @@ jobs:
             command: |
               yarn frontend:deploy
       - run:
-            name: confirmation
+            name: success confirmation
             command: |
               echo "build and deployment successful"
   test:
