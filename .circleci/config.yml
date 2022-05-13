@@ -21,9 +21,9 @@ jobs:
           configure-profile-region: true 
           disable-aws-pager: true 
           override-installed: false 
-          aws-access-key-id: AKIAXUF4TWET7HZ4JF57 
-          aws-secret-access-key: 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 
-          aws-region: us-west-1
+          aws-access-key-id: AWS_ACCESS_KEY_ID 
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY 
+          aws-region: AWS_REGION
       - eb/setup
       - run:
             name: "build job"
