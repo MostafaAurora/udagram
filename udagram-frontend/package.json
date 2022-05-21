@@ -6,11 +6,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "aws s3 cp --recursive --acl public-read ./www s3://udagram1234/"
+    "deploy": "aws s3 cp --recursive --acl public-read ./www s3://udagram12345/"
   },
   "private": true,
   "dependencies": {
