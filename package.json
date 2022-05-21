@@ -6,7 +6,7 @@
         "frontend:deploy":"cd udagram-frontend && yarn deploy",
         "api:install":"cd udagram-api && yarn install",
         "api:build":"cd udagram-api && yarn build",
-        "api:deploy":"cd udagram-api && yarn eb_init && yarn eb_sample && yarn eb_use && yarn deploy"
+        "api:deploy":"cd udagram-api && yarn eb_init && yarn eb_use && yarn deploy"
     },
     "devDependencies": {}
 }
